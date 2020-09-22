@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+}
+
+header{
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("img/lightsaber-background.jpg");
+  background-size: 1900px 500px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border: 20px solid black;
+}
+
+header img{
+  border-radius: 180px;
+  width: 450px;
+  border: 10px solid black;
+}
+
+h1{
+  padding-top: 10px;
+  color: #ff0000;
+  font-size: 75px;
+}
+
+main{
+  margin: 0 auto;
+  background-image: url("img/space-background.jpg");
+  background-size: repeat;
+}
+
+main h2{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main p{
+  color: white;
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.lore{
+  width: 600px;
+  height: 700px;
+  margin: 0 auto;
+  padding-left: 650px
+
+}
+
+.bio{
+  margin: 0 815px;
+  color:white;
+}
+
+.quote-one{
+  padding-left: 100px;
+  width: 450px;
+  height: 500px;
+}
+.quote-two{
+  width: 500px;
+  height: 500px;
+}
+
+.quote-three{
+  width: 500px;
+  height: 500px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+footer{
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 10px;
+}
+
+footer p{
+  color: #dfdfdf;
+  text-align: center;
+}
