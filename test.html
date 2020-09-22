@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    /*
+    .vl {
+      border-right: 5px solid black;
+      height: 500px;
+      left: 10%;
+      position: absolute;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    */
+
+    .grid-container{
+      display: inline-grid;
+      grid-template-columns: auto auto auto;
+      
+    }
+    
+    .grid-item{
+      padding: 10px;
+      
+    }
+    .inner{
+      border-right: 1px solid black;
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="grid-container">
+        <div class="grid-item inner">
+          <h2>AFFILIATION</h2>
+          <p>galactic empire</p>
+        </div>
+        <div class="grid-item inner">
+          <h2>LOCATION</h2>
+          <p>Death Star</p>
+        </div>
+        <div class="grid-item inner">
+          <h2>GENDER</h2>
+          <p>Male</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="grid-container">
+        <div class="grid-item inner">
+          <h2>DIMENSION</h2>
+          <p>Height: 2.03m</p>
+        </div>
+        <div class="grid-item inner">
+          <h2>SPECIES</h2>
+          <p>Human</p>
+        </div>
+        <div class="grid-item inner">
+          <h2>Vehicles</h2>
+          <p>Darth Vader's Tie Fighter</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="grid-container">
+        <div class="grid-item">
+          <h2>Weapon</h2>
+          <p>Darth Vader's lightsaber</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

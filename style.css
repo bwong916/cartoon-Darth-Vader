@@ -60,23 +60,48 @@ main p{
   color:white;
 }
 
+.grid-container-bio{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  transform: translate(192px, 0px);
+  
+}
+
+.grid-item-bio{
+  margin: 0 auto;
+  padding: 10px;
+  
+}
+.inner{
+  border-right: 1px solid grey;
+}
+
+
 .quote-one{
   padding-left: 100px;
-  width: 450px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 .quote-two{
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 .quote-three{
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
+
 .grid-container{
+  max-width: 800px;
   display: grid;
   grid-template-columns: auto auto auto;
+  padding-left: 200px;
+
+}
+
+.grid-item{
+  margin: 0 auto;
   padding: 20px;
 }
 
